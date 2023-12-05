@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shivam Wadhwa | Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, .7);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        z-index: 9999;
+        animation: fadeOut 5s ease-in-out forwards;
+      }
+      @keyframes fadeOut {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      
+      .spinicon img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .instructions {
+        font-size: 20px;
+        margin-bottom: 20px;
+        animation: fadeOut 5s ease-in-out forwards;
+      }
+
+      .close-overlay {
+        cursor: pointer;
+        padding: 10px;
+        background: #2196f3;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="overlay" id="overlay">
+      <div class="spinicon">
+        <img src="/src/assets/images/spin.png" alt="">
+      </div>
+      <div class="instructions">
+        Press and drag horizontally to move the island.
+      </div>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      setTimeout(()=> {
+        document.getElementById("overlay").style.display = "none";
+        document.body.style.overflow = "auto";
+      },5000);
+    </script>
+  </body>
+</html>
