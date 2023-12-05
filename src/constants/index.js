@@ -32,11 +32,11 @@ export const skills = [
     name: "CSS",
     type: "Frontend",
   },
-  {
-    imageUrl: express,
-    name: "Express",
-    type: "Backend",
-  },
+  // {
+  //   imageUrl: express,
+  //   name: "Express",
+  //   type: "Backend",
+  // },
   {
     imageUrl: git,
     name: "Git",
@@ -57,41 +57,41 @@ export const skills = [
     name: "JavaScript",
     type: "Frontend",
   },
-  {
-    imageUrl: mongodb,
-    name: "MongoDB",
-    type: "Database",
-  },
-  {
-    imageUrl: motion,
-    name: "Motion",
-    type: "Animation",
-  },
-  {
-    imageUrl: mui,
-    name: "Material-UI",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nextjs,
-    name: "Next.js",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
-  },
+  // {
+  //   imageUrl: mongodb,
+  //   name: "MongoDB",
+  //   type: "Database",
+  // },
+  // {
+  //   imageUrl: motion,
+  //   name: "Motion",
+  //   type: "Animation",
+  // },
+  // {
+  //   imageUrl: mui,
+  //   name: "Material-UI",
+  //   type: "Frontend",
+  // },
+  // {
+  //   imageUrl: nextjs,
+  //   name: "Next.js",
+  //   type: "Frontend",
+  // },
+  // {
+  //   imageUrl: nodejs,
+  //   name: "Node.js",
+  //   type: "Backend",
+  // },
   {
     imageUrl: react,
     name: "React",
     type: "Frontend",
   },
-  {
-    imageUrl: redux,
-    name: "Redux",
-    type: "State Management",
-  },
+  // {
+  //   imageUrl: redux,
+  //   name: "Redux",
+  //   type: "State Management",
+  // },
   {
     imageUrl: sass,
     name: "Sass",
